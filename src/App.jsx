@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from '@emotion/styled';
+
+// Components
+import Phrase from './components/Phrase';
 
 const Container = styled.div`
 display: flex;
@@ -21,12 +24,19 @@ const BtnPhrase = styled.button`
 
 function App() {
 
-  const consulting = () => {
-    console.log('test click');
+  const [phrase, setPhrase] = useState({});
+
+  const consulting = async () => {
+    const url = await fetch('https://breaking-bad-quotes.herokuapp.com/v1/quotes');
+    const phraseResult = await url.json();
+    setPhrase(phraseResult[0]);
   }
 
   return (
     <Container>
+      <Phrase
+        phrase={phrase}
+      />
       <BtnPhrase
         onClick={consulting}
       >
