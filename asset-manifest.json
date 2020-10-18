@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/api-quotes/static/css/main.32642ee1.chunk.css",
+    "main.js": "/api-quotes/static/js/main.3ed0601d.chunk.js",
+    "main.js.map": "/api-quotes/static/js/main.3ed0601d.chunk.js.map",
+    "runtime-main.js": "/api-quotes/static/js/runtime-main.21529f01.js",
+    "runtime-main.js.map": "/api-quotes/static/js/runtime-main.21529f01.js.map",
+    "static/js/2.5e074f6e.chunk.js": "/api-quotes/static/js/2.5e074f6e.chunk.js",
+    "static/js/2.5e074f6e.chunk.js.map": "/api-quotes/static/js/2.5e074f6e.chunk.js.map",
+    "index.html": "/api-quotes/index.html",
+    "precache-manifest.1b8ddc783e2510884e6191d5d63f47ab.js": "/api-quotes/precache-manifest.1b8ddc783e2510884e6191d5d63f47ab.js",
+    "service-worker.js": "/api-quotes/service-worker.js",
+    "static/css/main.32642ee1.chunk.css.map": "/api-quotes/static/css/main.32642ee1.chunk.css.map",
+    "static/js/2.5e074f6e.chunk.js.LICENSE.txt": "/api-quotes/static/js/2.5e074f6e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/api-quotes/static/media/logo.427a4adc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21529f01.js",
+    "static/js/2.5e074f6e.chunk.js",
+    "static/css/main.32642ee1.chunk.css",
+    "static/js/main.3ed0601d.chunk.js"
+  ]
+}
